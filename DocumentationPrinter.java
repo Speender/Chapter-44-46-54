@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class DocumentationPrinter {
    public static void main(String[] args) throws IOException {
       
-      File myFile = new File("C:\\Users\\ACER\\Comprog12\\Diether_Catan_Gwapa_Kaayo.txt");
+      File myFile = new File("C:\\Users\\ACER\\Comprog12\\Diether_Catan_Gwapa_Kaayo.txt");//i change sa imong fileaddress
 
       Scanner input = new Scanner(myFile);
       String line = input.next();
